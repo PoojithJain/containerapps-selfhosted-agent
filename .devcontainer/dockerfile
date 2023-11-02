@@ -1,1 +1,1 @@
-FROM mcr.microsoft.com/devcontainers/universal:latest
+FROM mcr.microsoft.com/devcontainers/dotnet:latest
