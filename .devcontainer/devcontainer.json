@@ -7,13 +7,21 @@
         "dockerfile": "dockerfile"
     },
     "features": {
+       
+        "ghcr.io/devcontainers/features/powershell:latest": {
+            "version": "latest"
+        },
         "ghcr.io/devcontainers/features/azure-cli:latest": {
             "installBicep": true,
             "installUsingPython": true,
             "version": "latest"
         },
-        "ghcr.io/devcontainers/features/powershell:latest": {
-            "version": "latest"
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "none"
+        },
+        "ghcr.io/devcontainers/features/git:1": {
+            "version": "latest",
+            "ppa": "false"
         },
         "ghcr.io/rchaganti/vsc-devcontainer-features/azurebicep:latest": {},
         "ghcr.io/devcontainers/features/common-utils:2": {
@@ -22,14 +30,7 @@
             "userUid": "1000",
             "userGid": "1000",
             "upgradePackages": "true"
-        },
-        "ghcr.io/devcontainers/features/node:1": {
-            "version": "none"
-        },
-        "ghcr.io/devcontainers/features/git:1": {
-            "version": "latest",
-            "ppa": "false"
-        }
+        }      
     },
     "customizations": {
         "vscode": {
